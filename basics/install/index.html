@@ -107,7 +107,7 @@ You can either specify them as multiple -e options, or you can put them into an
 an environment file and use --env-file.</p>
 
 <pre><code class="bash">docker pull lyft/confidant
-docker run -t confidant --env-file my_config
+docker run -t lyft/confidant --env-file my_config
 </code></pre>
 
 <h2 id="to-build-the-image">To build the image</h2>
@@ -117,7 +117,7 @@ do the following:</p>
 
 <pre><code class="bash">git clone https://github.com/lyft/confidant
 cd confidant
-docker build -t confidant .
+docker build -t lyft/confidant .
 </code></pre>
 
 <h1 id="manual-installation">Manual installation</h1>
@@ -151,7 +151,7 @@ deactivate
 
 <h2 id="build-the-frontend">Build the frontend</h2>
 
-<pre><code class="bash">cd /srv/confidant/confidant
+<pre><code class="bash">cd /srv/confidant
 sudo apt-get install -y ruby-full npm nodejs nodejs-legacy git git-core
 gem install compass
 npm install grunt-cli
