@@ -93,7 +93,7 @@
 
 <h2 id="service-to-service-authentication">Service-to-service authentication</h2>
 
-<p>When a service is created in Confidant, Confidant will generate a couple grants
+<p>When a service is created in Confidant, Confidant will generate a couple of grants
 on the AUTH_KEY KMS key. One grant allows the service to do encryptions or
 decryptions using the key, as long as the &#39;from&#39; encryption context is the name
 of the service and the other grant allows the service to do decryptions using the
@@ -282,7 +282,7 @@ same pattern can be applied for doing your own service-to-service
 authentication as well.</p>
 
 <p>Something to notice here is that we&#39;re doing extra work based on the payload
-contents of the token. We&#39;re adding not<em>before and not</em>after data so that we can
+contents of the token. We&#39;re adding <code>not_before</code> and <code>not_after</code> data so that we can
 give this token a lifetime. The client is specifying the lifetime of the token
 itself. You could put additional information into the payload, such as token
 scope, additional contraints, etc.. In Confidant, on the server side we also
