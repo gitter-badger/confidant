@@ -328,6 +328,31 @@ because the application should never be able to do that.</p>
 }
 </code></pre>
 
+<h2 id="confidant-dynamodb-table-configuration">Confidant DynamoDB table configuration</h2>
+
+<p>You&#39;ll need to create a dynamodb with two global indexes:</p>
+
+<pre><code>hash id: id
+hash key data type: S
+
+global indexes:
+
+data_type_date_index:
+  hash key: data_type
+  hash key data type: S
+  range key: modified_date
+  range key data type: S
+
+data_type_revision_index:
+  hash key: data_type
+  hash key data type: S
+  range key: revision
+  range key data type: N
+</code></pre>
+
+<p>Provisioned read/write units can be relative low on both the primary table and
+the indexes. See your usage in cloudwatch and increase throughput as necessary.</p>
+
     </main>
   </div>
 
