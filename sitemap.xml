@@ -1,199 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://middlemanapp.com/advanced/contributing/</loc>
+    <loc>https://lyft.github.io/confidant/advanced/contributing/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/advanced/data_schema/</loc>
+    <loc>https://lyft.github.io/confidant/advanced/data_schema/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/advanced/service_to_service_auth/</loc>
+    <loc>https://lyft.github.io/confidant/advanced/service_to_service_auth/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/advanced/threat_model/</loc>
+    <loc>https://lyft.github.io/confidant/advanced/threat_model/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/basics/configuration/</loc>
+    <loc>https://lyft.github.io/confidant/basics/configuration/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/basics/install/</loc>
+    <loc>https://lyft.github.io/confidant/basics/install/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/basics/using_confidant/</loc>
+    <loc>https://lyft.github.io/confidant/basics/using_confidant/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/basics/dynamic-pages/</loc>
+    <loc>https://lyft.github.io/confidant/footer/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://middlemanapp.com/jp/basics/dynamic-pages/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/basics/pretty-urls/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/basics/pretty-urls/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/advanced/custom/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/advanced/custom/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/basics/templates/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/basics/templates/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/basics/helpers/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/basics/helpers/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/basics/getting-started/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/basics/getting-started/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/basics/asset-pipeline/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/basics/asset-pipeline/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/advanced/improving-cacheability/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/advanced/improving-cacheability/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/advanced/local-data/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/advanced/local-data/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/advanced/rack-middleware/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/advanced/rack-middleware/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/advanced/file-size-optimization/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/advanced/file-size-optimization/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/community/built-using-middleman/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/jp/community/built-using-middleman/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/footer/</loc>
-    <lastmod>2015-11-03T00:00:00-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://middlemanapp.com/</loc>
+    <loc>https://lyft.github.io/confidant/</loc>
     <lastmod>2015-11-03T00:00:00-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

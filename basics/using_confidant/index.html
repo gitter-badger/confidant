@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Middleman: Managing secrets and mappings</title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Source+Code+Pro">
-    <link href="../../stylesheets/site.css" rel="stylesheet" type="text/css" />
+    <link href="../../stylesheets/site-15f698d1.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
       <header id="header">
     <nav class="global-nav" role="navigation">
   <section class="wrap-container">
     <header class="global-nav-item logo-text">
-      <a class="global-nav-logo" href="/">Confidant</a>
+      <a class="global-nav-logo" href="../../">Confidant</a>
     </header>
 
     <ul class="global-nav-list">
@@ -27,7 +27,7 @@
 
       </li>
       <li class="global-nav-item">
-        <a class="cta-link-nav-filled" href="/basics/install/">Docs</a>
+        <a class="cta-link-nav-filled" href="../install/">Docs</a>
       </li>
     </ul>
   </section>
@@ -66,12 +66,12 @@
     <h3 class="docs-section-heading">Basics</h3>
     <ul>
       <li class="doc-item">
-        <a href="/basics/install/">Install</a> </li>
+        <a href="../install/">Install</a> </li>
       <li class="doc-item">
-        <a href="/basics/configuration/">Configure</a>
+        <a href="../configuration/">Configure</a>
         </li>
       <li class="doc-item">
-        <a href="/basics/using_confidant/">Managing secrets and mappings</a>
+        <a href="./">Managing secrets and mappings</a>
         </li>
     </ul>
   </div>
@@ -80,16 +80,16 @@
     <h3 class="docs-section-heading">Advanced</h3>
     <ul>
       <li class="doc-item">
-        <a href="/advanced/threat_model/">Threat Model</a>
+        <a href="../../advanced/threat_model/">Threat Model</a>
         </li>
       <li class="doc-item">
-        <a href="/advanced/service_to_service_auth/">Service-to-service authentication and encryption</a>
+        <a href="../../advanced/service_to_service_auth/">Service-to-service authentication and encryption</a>
         </li>
       <li class="doc-item">
-        <a href="/advanced/contributing/">Contributing</a>
+        <a href="../../advanced/contributing/">Contributing</a>
         </li>
       <li class="doc-item">
-        <a href="/advanced/data_schema/">Data Schema</a>
+        <a href="../../advanced/data_schema/">Data Schema</a>
         </li>
     </ul>
   </div>
@@ -109,7 +109,7 @@ and the history view.</p>
 
 <h3 id="creating-secrets">Creating secrets</h3>
 
-<p><img src='../../images/interface-create.png' width="200" style="float: left; margin: 10px"></img></p>
+<p><img src='../../images/interface-create-9f2ce2f8.png' width="200" style="float: left; margin: 10px"></img></p>
 
 <p>In the left panel of the resources view is the list of secrets and services.
 Above that is a filter, and next to the filter is a plus. Clicking on that plus
@@ -124,7 +124,7 @@ alphanumeric and the value can be anything. Credential pairs are the secrets
 and are encrypted at-rest. The rest of the metadata is stored along with the secret
 and is un-encrypted, so the friendly name should not contain anything sensitive.</p>
 
-<p><img src='../../images/interface-new-credential.png' width="350" style="float: right; margin: 10px"></img></p>
+<p><img src='../../images/interface-new-credential-96764f09.png' width="350" style="float: right; margin: 10px"></img></p>
 
 <p>Credentials can have more than a single credential pair; however, it&#39;s
 important to note that keys must be unique in a credential, and when mapping
@@ -134,7 +134,7 @@ conflicting keys would force the service to choose which key is valid.</p>
 
 <h3 id="mapping-secrets-to-services">Mapping secrets to services</h3>
 
-<p><img src='../../images/interface-new-service.png' width="350" style="float: left; margin: 10px"></img></p>
+<p><img src='../../images/interface-new-service-b414567c.png' width="350" style="float: left; margin: 10px"></img></p>
 
 <p>In the same way you created a new credential, do the same thing, but now click
 on create service. This will bring up a new service resourse in the right
@@ -150,12 +150,12 @@ created.</p>
 
 <h3 id="finding-credentials-and-services-in-the-sidebar">Finding credentials and services in the sidebar</h3>
 
-<p><img src='../../images/interface-filter.png' width="225" style="float: right; margin: 10px"></img></p>
+<p><img src='../../images/interface-filter-8f56268d.png' width="225" style="float: right; margin: 10px"></img></p>
 
 <p>Once you have enough credentials and services, it can be difficult to find them
 in the sidebar. To make this easier, the sidebar has a filter at the top
 that&#39;ll let you selectively display credentials and services.
-<img src='../../images/interface-filter-with-regex.png' width="225" style="float: left; margin: 10px"></img></p>
+<img src='../../images/interface-filter-with-regex-0de0987a.png' width="225" style="float: left; margin: 10px"></img></p>
 
 <p>By default this filter will match any word in the user-defined name of
 credentials and services, but it&#39;s also possible to use a regex filter instead.</p>
@@ -164,7 +164,7 @@ credentials and services, but it&#39;s also possible to use a regex filter inste
 
 <h2 id="using-the-history-view">Using the history view</h2>
 
-<p><img src='../../images/interface-history.png' width="400" style="float: right; margin: 10px"></img></p>
+<p><img src='../../images/interface-history-642810dc.png' width="400" style="float: right; margin: 10px"></img></p>
 
 <p>The history view can be used to explore changes in credentials or services. The
 left panel of the history view shows a list of changes, sorted by date.
@@ -212,10 +212,10 @@ resource.</p>
   </div>
 </footer>
 
-    <script src="../../javascripts/site.js" type="text/javascript"></script>
+    <script src="../../javascripts/site-c8d66733.js" type="text/javascript"></script>
     <script>
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-90027-21']);
+  _gaq.push(['_setAccount', 'UA-1446928-6']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -225,18 +225,6 @@ resource.</p>
     document.documentElement.firstChild.appendChild(ga);
   })();
 </script>
-<script>
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '4ef39d56613f5d017b000004');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
+
   </body>
 </html>
