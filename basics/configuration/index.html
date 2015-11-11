@@ -111,6 +111,27 @@ all available configuration options can be found in the settings.py file.</p>
 <li>Your Google application is setup and you know your client id and secret key.</li>
 </ol>
 
+<h2 id="docker-vs-bash">Docker vs bash</h2>
+
+<p>Note that below the format of the configuration is given in bash format for
+defining and exporting environment variables. Docker environment files have a
+slightly different format than bash. Here&#39;s an example of the difference:</p>
+
+<p>In bash format:</p>
+
+<pre><code class="bash">export MY_VARIABLE=&#39;MY_VALUE&#39;
+</code></pre>
+
+<p>In docker env file format, you don&#39;t export the variable, and the value
+shouldn&#39;t be quoted, since everything after the equal sign is considered part
+of the value. So, in a docker environment file, you&#39;d define the same variable
+and value like this:</p>
+
+<p>In docker format:</p>
+
+<pre><code>MY_VARIABLE=MY_VALUE
+</code></pre>
+
 <h2 id="basic-environment-configuration">Basic environment configuration</h2>
 
 <p>This is the minimum configuration needed to use Confidant:</p>
@@ -137,6 +158,10 @@ export KMS_MASTER_KEY=&#39;confidant-production&#39;
 export REDIS_URL=&#39;redis://localhost:6381&#39;
 # A long randomly generated string for CSRF protection.
 export SESSION_SECRET=&#39;aBVmJA3zv6zWGjrYto135hkdox6mW2kOu7UaXIHK8ztJvT8w5O&#39;
+# The IP address to listen on.
+export HOST=&#39;0.0.0.0&#39;
+# The port to listen on.
+export PORT=&#39;80&#39;
 </code></pre>
 
 <h2 id="advanced-environment-configuration">Advanced environment configuration</h2>
